@@ -43,4 +43,64 @@ a {
   color: black;
 }
 
-/* all of the above is for the header /*
+/* all of the above is for the header */
+
+.maincontainer {
+  width: auto;
+  height: auto;
+  border-bottom: 3px solid black;
+  display: flex;
+  padding: 40px 120px;
+}
+.containerx {
+  width: 630px;
+}
+.containery {
+  width: 300px;
+
+}
+.containerz {
+  width: 240px;
+}
+.container0 {
+  border: 1px solid black;
+}
+.container1 {
+  border: 1px solid black;
+}
+
+.container2 {
+    border: 1px solid black;
+}
+.container3 {
+   border: 1px solid black;
+}
+.container4 {
+   border: 1px solid black;
+}
+.container5 {
+   border: 1px solid black;
+}
+.container6 {
+   border: 1px solid black;
+}
+.container7 {
+   border: 1px solid black;
+}
+.container8 {
+   border: 1px solid black;
+}
+.container9 {
+   border: 1px solid black;
+}
+.container10 {
+  border: 1px solid black;
+
+}
+.mainstory {
+  padding-top: 40px;
+  padding-left:120px;
+}
+.mainbody p {
+  color: white;
+}
