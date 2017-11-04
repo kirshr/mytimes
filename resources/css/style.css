@@ -1,0 +1,46 @@
+header{
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: flex-start;
+
+}
+
+.mytimeheader {
+  color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-flex;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1200px;
+
+}
+
+.mylogo {
+  padding-right: 10px;
+  display: inline-flex;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+.nav span {
+  font-size: 14px;
+  font-family: verdana;
+  justify-content: center;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+}
+
+/* all of the above is for the header /*
