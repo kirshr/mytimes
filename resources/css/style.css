@@ -45,62 +45,98 @@ a {
 
 /* all of the above is for the header */
 
-.maincontainer {
-  width: auto;
-  height: auto;
-  border-bottom: 3px solid black;
+/* Styling main story */
+.container {
   display: flex;
-  padding: 40px 120px;
+  justify-content: space-between;
+  margin: 100px;
 }
-.containerx {
+
+.large{
   width: 630px;
+  justify-content: space-between;
 }
-.containery {
+.medium {
   width: 300px;
+  display: flex;
+  flex-direction: column;
 
 }
-.containerz {
+.small {
   width: 240px;
 }
-.container0 {
-  border: 1px solid black;
-}
-.container1 {
-  border: 1px solid black;
-}
-
-.container2 {
-    border: 1px solid black;
-}
-.container3 {
-   border: 1px solid black;
-}
-.container4 {
-   border: 1px solid black;
-}
-.container5 {
-   border: 1px solid black;
-}
-.container6 {
-   border: 1px solid black;
-}
-.container7 {
-   border: 1px solid black;
-}
-.container8 {
-   border: 1px solid black;
-}
-.container9 {
-   border: 1px solid black;
-}
-.container10 {
-  border: 1px solid black;
-
-}
 .mainstory {
-  padding-top: 40px;
-  padding-left:120px;
+  background-image: url("./images/img-story-main.png");
+
+  display: flex;
+  height: 300px;
+  flex-direction: column;
 }
-.mainbody p {
-  color: white;
+.content {
+
+}
+.medium1  {
+
+}
+.medium2 {
+
+}
+.story h2 {
+font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+.story p {
+font-family: Georgia;
+font-size: 17px;
+color: black;
+}
+.story {
+
+display: flex;
+flex-direction: column;
+width:auto;
+height:auto;
+flex-wrap: wrap;
+padding-bottom: 0px;
+}
+span {
+
+    display: flex;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    display: flex;
+
+}
+.cookie {
+
+}
+.storypic {
+  background-image: url("./images/img-story-2.png");
+  height: 300px;
+  width: 285px;
+
+}
+.storypic2 {
+  background-image: url("./images/img-story-3.png");
+  width: 285px;
+  height: 300px;
+
+
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+
+}
+.orca {
+  padding-bottom: 14px;
 }
